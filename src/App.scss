@@ -1,0 +1,38 @@
+nav ul {
+  display: flex;
+  gap: 40px;
+  justify-content: flex-end;
+  li {
+    list-style: none;
+  }
+}
+
+h1,
+h2 {
+  font-size: 3rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+}
+
+.product_frame {
+  max-width: 400px;
+  text-align: center;
+  margin-inline: auto;
+
+  img {
+    object-fit: contain;
+    max-width: 400px;
+    max-height: 400px;
+    aspect-ratio: 1/1;
+  }
+}
+
+.product_section {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  row-gap: 100px;
+}
